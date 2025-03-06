@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contener {
+    margin: 0 auto;
+}
+
+.fon {
+    width: 1903px;
+    height: 4690px;
+    background: url(./img/Игры.png) no-repeat;
+}
+
+
+.popup-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none; /* Скрываем по умолчанию */
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+/* Сам попап */
+.popup {
+    background: #242222;
+    padding: 20px;
+    text-align: center;
+    width: 549px;
+    height: 725px;
+    position: relative;
+
+    img {
+        float: left;
+    }
+    h2 {
+        padding-top: 20px;
+        font-family: Montserrat;
+        color: white;
+        font-size: 36px;
+    }
+ 
+}
+
+/* Кнопка закрытия */
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Поля ввода */
+.popup input {
+    outline: none;
+    width: 464px;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 20px;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+
+/* Кнопка регистрации */
+
+
+.popup-box {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.popup-button {
+    text-decoration: none;
+    padding: 22px 52px;
+    background: #3120C7;
+    border-radius: 50px;
+    font-family: Montserrat;
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+
+.popup-bg-2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none; /* Скрываем по умолчанию */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Сам попап */
+.popup-2 {
+    background: #242222;
+    padding: 20px;
+    text-align: center;
+    width: 550px;
+    height: 486px;
+    position: relative;
+
+    img {
+        float: left;
+    }
+    h2 {
+        padding-top: 20px;
+        font-family: Montserrat;
+        color: white;
+        font-size: 36px;
+    }
+}
+
+/* Кнопка закрытия */
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Поля ввода */
+.popup-2 input {
+    outline: none;
+    width: 464px;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 20px;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+
+/* Кнопка регистрации */
+.popup-button-2 {
+    text-decoration: none;
+    padding: 22px 52px;
+    background: #3120C7;
+    border-radius: 50px;
+    font-family: Montserrat;
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+
+.popup-box-2 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.header {
+
+    ul {
+        display: flex;
+        padding: 0px;
+    }
+    li {
+        list-style: none;
+        padding-left: 10px;
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+            font-family: Montserrat;
+            padding-left: 20px;
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    padding-left: 86px;
+    padding-top: 55px;
+}
+
+.header-spisok {
+    padding-top: 33px;
+    padding-left: 36px;
+}
+
+.profil {
+    padding-left: 58px;
+    padding-top: 40px;
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+    }
+    .button-profil {
+        margin-left: 16px;
+        padding: 22px 52px;
+        background: #3120C7;
+        border-radius: 50px;
+    }
+    
+}
+
+.igra {
+    h2 {
+        margin: 0px;
+        padding-top: 25px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Press Start 2P';
+        color: #796CEB;
+        line-height: 80px;
+        letter-spacing: 2px;
+    }
+}
+
+.igra-box {
+    padding-top: 68px;
+}
+
+.igra-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.igra-infa {
+    width: 471px;
+    height: 144px;
+    background-color: black;
+    border-radius: 20px;
+    h3 {
+        font-size: 20px;
+        font-family: 'Press Start 2P';
+        color: white;
+        text-align: center;
+        margin: 0px;
+        padding-top: 30px;
+    }
+    p {
+        font-size: 15px;
+        font-family: 'Press Start 2P';
+        color: white;
+        opacity: 80%;
+        padding-top: 10px;
+        padding-left: 29px;
+    }
+    img {
+        padding-left: 30px;
+        padding-top: 15px;
+        float: left;
+    }
+}
+
+.novinki {
+    h2 {
+        margin: 0px;
+        padding-top: 35px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Press Start 2P';
+        color: #796CEB;
+        line-height: 80px;
+        letter-spacing: 2px;
+    }
+}
+
+.igra-box-2 {
+    padding-top: 68px;
+}
+
+.otzov {
+    h2 {
+        margin: 0px;
+        padding-top: 45px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Press Start 2P';
+        color: #796CEB;
+        line-height: 80px;
+        letter-spacing: 2px;
+    }
+}
+
+.otzov-contener {
+    background-color: black;
+    width: 701px;
+    height: 325px;
+    border-radius: 20px;
+    h3 {
+        padding-bottom: 24px;
+        padding-left: 44px;
+        font-size: 24px;
+        font-family: 'Press Start 2P';
+        color: white;
+        margin: 0px;
+        padding-top: 31px;
+    }
+    p {
+        font-size: 20px;
+        font-family: 'Press Start 2P';
+        color: white;
+        opacity: 80%;
+        padding-left: 44px;
+    }
+}
+
+.otzov-box {
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.FAQ {
+    height: 1550px;
+    h2 {
+        margin: 0px;
+        padding-top: 45px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Press Start 2P';
+        color: #796CEB;
+        line-height: 80px;
+        letter-spacing: 2px;
+    }
+}
+
+.FAQ-box {
+    padding-left: 286px;
+}
+
+.faq-item {
+    padding: 14px 0px;
+    margin: 40px 0;
+    background-color: black;
+    border-radius: 20px;
+    width: 1348px;
+    h3 {
+        padding-left: 40px;
+        font-size: 20px;
+        font-family: 'Press Start 2P';
+        color: white;
+        margin: 0px;
+    }
+    p {
+        padding-left: 40px;
+        font-size: 16px;
+        font-family: 'Press Start 2P';
+        color: white;
+        opacity: 80%;
+        line-height: 25px;
+    }
+}
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.faq-icon {
+    padding-right: 15px;
+    transition: transform 0.3s;
+}
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    padding: 0 15px;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 500px; /* Достаточно большое значение, чтобы вместить ответ */
+    padding: 10px 15px;
+}
+.faq-item.active .faq-icon {
+    transform: rotate(45deg);
+}
+
+.footer {
+    display: flex;
+    padding-left: 67px;
+}
+
+.footer-text-1 {
+    display: flex;
+    a {
+        padding-bottom: 50px;
+        text-decoration: none;
+        padding-right: 66px;
+        color: white;
+        font-size: 26px;
+        font-family: Montserrat;
+    }
+}
+
+.footer-text-2 {
+    display: flex;
+    a {
+        text-decoration: none;
+        padding-right: 80px;
+        color: white;
+        font-size: 26px;
+        font-family: Montserrat;
+    }
+}
+
+.footer-logo {
+    padding-top: 20px;
+    padding-right: 92px;
+}
+
+.footer-img  {
+    padding-top: 120px;
+    padding-left: 360px;
+    img {
+        padding-right: 42px;
+    }
+}

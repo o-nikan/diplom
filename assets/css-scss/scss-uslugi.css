@@ -1,0 +1,730 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.contener {
+  margin: 0 auto;
+}
+
+.fon {
+  width: 1903px;
+  height: 10789px;
+  background: url(./img/Услуги.png) no-repeat;
+}
+
+.popup-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none; /* Скрываем по умолчанию */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Сам попап */
+.popup {
+  background: #242222;
+  padding: 20px;
+  text-align: center;
+  width: 549px;
+  height: 725px;
+  position: relative;
+}
+.popup img {
+  float: left;
+}
+.popup h2 {
+  padding-top: 20px;
+  font-family: Montserrat;
+  color: white;
+  font-size: 36px;
+}
+
+/* Кнопка закрытия */
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Поля ввода */
+.popup input {
+  outline: none;
+  width: 464px;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 20px;
+  font-family: Montserrat;
+  font-size: 24px;
+}
+
+/* Кнопка регистрации */
+.popup-box {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.popup-button {
+  text-decoration: none;
+  padding: 22px 52px;
+  background: #3120C7;
+  border-radius: 50px;
+  font-family: Montserrat;
+  color: white;
+  font-size: 30px;
+  border: none;
+}
+
+.popup-bg-2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none; /* Скрываем по умолчанию */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Сам попап */
+.popup-2 {
+  background: #242222;
+  padding: 20px;
+  text-align: center;
+  width: 550px;
+  height: 486px;
+  position: relative;
+}
+.popup-2 img {
+  float: left;
+}
+.popup-2 h2 {
+  padding-top: 20px;
+  font-family: Montserrat;
+  color: white;
+  font-size: 36px;
+}
+
+/* Кнопка закрытия */
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Поля ввода */
+.popup-2 input {
+  outline: none;
+  width: 464px;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 20px;
+  font-family: Montserrat;
+  font-size: 24px;
+}
+
+/* Кнопка регистрации */
+.popup-button-2 {
+  text-decoration: none;
+  padding: 22px 52px;
+  background: #3120C7;
+  border-radius: 50px;
+  font-family: Montserrat;
+  color: white;
+  font-size: 30px;
+  border: none;
+}
+
+.popup-box-2 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.header ul {
+  display: flex;
+  padding: 0px;
+}
+.header li {
+  list-style: none;
+  padding-left: 10px;
+}
+.header li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-family: Montserrat;
+  padding-left: 20px;
+}
+
+.menu {
+  display: flex;
+  padding-left: 86px;
+  padding-top: 55px;
+}
+
+.header-spisok {
+  padding-top: 33px;
+  padding-left: 36px;
+}
+
+.profil {
+  padding-left: 58px;
+  padding-top: 40px;
+}
+.profil a {
+  text-decoration: none;
+  color: white;
+  font-family: Montserrat;
+  font-size: 30px;
+}
+.profil .button-profil {
+  margin-left: 16px;
+  padding: 22px 52px;
+  background: #3120C7;
+  border-radius: 50px;
+}
+
+.nabor h2 {
+  padding-bottom: 30px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Press Start 2P";
+  color: #796CEB;
+  line-height: 80px;
+  letter-spacing: 2px;
+}
+
+.nabor-1 {
+  background-color: black;
+  border-radius: 20px;
+  width: 376px;
+  height: 904px;
+}
+.nabor-1 h3 {
+  font-size: 20px;
+  font-family: "Press Start 2P";
+  color: white;
+  text-align: center;
+}
+
+.nabor-2 {
+  background-color: black;
+  border-radius: 20px;
+  width: 376px;
+  height: 904px;
+}
+.nabor-2 h3 {
+  font-size: 20px;
+  font-family: "Press Start 2P";
+  color: white;
+  text-align: center;
+}
+
+.nabor-3 {
+  background-color: black;
+  border-radius: 20px;
+  width: 376px;
+  height: 904px;
+}
+.nabor-3 h3 {
+  font-size: 20px;
+  font-family: "Press Start 2P";
+  color: white;
+  text-align: center;
+}
+
+.nabor-img {
+  padding-top: 15px;
+}
+
+.nabor-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nabor-xara p {
+  color: white;
+  text-align: center;
+  font-family: "Press Start 2P";
+  line-height: 20px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.nabor-spisok {
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+.nabor-spisok img {
+  padding-right: 10px;
+}
+.nabor-spisok p {
+  display: contents;
+  color: white;
+  font-family: "Press Start 2P";
+  font-size: 15px;
+}
+
+.nabor-cena {
+  text-align: center;
+  color: white;
+  font-family: "Press Start 2P";
+  font-size: 16px;
+}
+
+.nabor-cena-2 {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  text-align: center;
+  color: white;
+  font-family: "Press Start 2P";
+  font-size: 16px;
+}
+
+.nabor-button {
+  padding: 14px 52px;
+  border-radius: 50px;
+  color: white;
+  font-size: 24px;
+  font-family: Montserrat;
+  text-decoration: none;
+  background-color: #3120C7;
+}
+
+.nabor-buttonn {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.slider {
+  display: flex;
+  gap: 100px;
+  cursor: grab;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slide {
+  min-width: 867px;
+  height: 159px;
+  background: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  border-radius: 10px;
+}
+.slide h3 {
+  color: white;
+  text-align: center;
+  font-family: "Press Start 2P";
+  line-height: 20px;
+  font-size: 22px;
+}
+.slide p {
+  color: white;
+  text-align: center;
+  font-family: "Press Start 2P";
+  line-height: 20px;
+  font-size: 15px;
+  opacity: 80%;
+  letter-spacing: 2px;
+}
+
+.nazv {
+  padding-top: 70px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Press Start 2P";
+  color: #796CEB;
+  line-height: 80px;
+  letter-spacing: 2px;
+}
+
+.uslugi-text h2 {
+  padding-top: 70px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Press Start 2P";
+  color: #796CEB;
+  line-height: 80px;
+  letter-spacing: 2px;
+}
+
+.nabor-4 {
+  display: inline-block;
+  margin-left: 374px;
+  background-color: black;
+  border-radius: 20px;
+  width: 376px;
+  height: 904px;
+}
+.nabor-4 h3 {
+  font-size: 20px;
+  font-family: "Press Start 2P";
+  color: white;
+  text-align: center;
+}
+
+.nabor-5 {
+  float: right;
+  margin-top: 423px;
+  margin-right: 289px;
+  background-color: black;
+  border-radius: 20px;
+  width: 376px;
+  height: 904px;
+}
+.nabor-5 h3 {
+  font-size: 20px;
+  font-family: "Press Start 2P";
+  color: white;
+  text-align: center;
+}
+
+.nabor-6 {
+  float: left;
+  margin-top: 257px;
+  display: inline-block;
+  margin-left: 374px;
+  background-color: black;
+  border-radius: 20px;
+  width: 376px;
+  height: 904px;
+}
+.nabor-6 h3 {
+  font-size: 20px;
+  font-family: "Press Start 2P";
+  color: white;
+  text-align: center;
+}
+
+.nabor-7 {
+  float: right;
+  margin-top: 234px;
+  margin-right: 289px;
+  background-color: black;
+  border-radius: 20px;
+  width: 376px;
+  height: 904px;
+}
+.nabor-7 h3 {
+  font-size: 20px;
+  font-family: "Press Start 2P";
+  color: white;
+  text-align: center;
+}
+
+.nabor-8 {
+  float: left;
+  margin-top: 257px;
+  display: inline-block;
+  margin-left: 374px;
+  background-color: black;
+  border-radius: 20px;
+  width: 376px;
+  height: 904px;
+}
+.nabor-8 h3 {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-family: "Press Start 2P";
+  color: white;
+  text-align: center;
+}
+
+.uslugi {
+  height: 4700px;
+}
+
+.tovar {
+  padding-top: 50px;
+  padding-left: 212px;
+}
+
+.tovar-box {
+  display: flex;
+}
+
+.tovar-img {
+  background: url(./img/scale_1200-1.png) no-repeat;
+  width: 636px;
+  height: 440px;
+}
+.tovar-img h2 {
+  padding-top: 30px;
+  font-size: 40px;
+  font-family: "Press Start 2P";
+  color: white;
+  text-align: center;
+}
+
+.tovar-produkt {
+  background-color: #494C54;
+  width: 912px;
+  height: 440px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.tovar-1 {
+  justify-content: space-evenly;
+  display: flex;
+  padding-left: 40px;
+  padding-top: 27px;
+}
+
+.tovar-1-1 {
+  background-color: black;
+  width: 144px;
+  height: 165px;
+  border-radius: 20px;
+}
+.tovar-1-1 img {
+  padding-left: 46px;
+}
+.tovar-1-1 p {
+  font-family: "Press Start 2P";
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+.tovar-2 {
+  justify-content: space-around;
+  display: flex;
+  padding-left: 40px;
+  padding-top: 55px;
+}
+
+.tovar-img-2 {
+  background: url(./img/i-4.png) no-repeat;
+  width: 636px;
+  height: 440px;
+}
+.tovar-img-2 h2 {
+  padding-top: 30px;
+  font-size: 40px;
+  font-family: "Press Start 2P";
+  color: white;
+  text-align: center;
+}
+
+.tovar2 {
+  padding-top: 118px;
+  padding-left: 212px;
+}
+
+.tovar-1-2 {
+  background-color: black;
+  width: 290px;
+  height: 330px;
+  border-radius: 20px;
+}
+.tovar-1-2 img {
+  padding-left: 20px;
+}
+.tovar-1-2 p {
+  font-family: "Press Start 2P";
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.tablica h2 {
+  padding-top: 132px;
+  padding-bottom: 53px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Press Start 2P";
+  color: #796CEB;
+  line-height: 80px;
+  letter-spacing: 2px;
+}
+
+.tablica-box {
+  padding-left: 186px;
+}
+
+.tablica-spisok {
+  width: 1548px;
+  height: 1390px;
+  background: url(./img/image-14.png) no-repeat;
+}
+
+.tablica-uchastnik-1 {
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 1326px;
+  height: 75px;
+  background-color: #796CEB;
+}
+.tablica-uchastnik-1 h3 {
+  padding-top: 21px;
+  padding-left: 27px;
+  font-family: "Press Start 2P";
+  color: white;
+  font-size: 36px;
+  margin: 0px;
+}
+.tablica-uchastnik-1 span {
+  padding-left: 72px;
+  font-family: "Press Start 2P";
+  color: white;
+  font-size: 20px;
+}
+.tablica-uchastnik-1 p {
+  padding-top: 10px;
+  padding-right: 50px;
+  font-size: 20px;
+  float: right;
+  font-family: "Press Start 2P";
+  color: white;
+}
+
+.tablica-uchastnik {
+  padding-top: 60px;
+}
+
+.nomer {
+  display: inline-block;
+}
+
+.turnir-infa h2 {
+  padding-top: 62px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Press Start 2P";
+  color: #796CEB;
+  line-height: 80px;
+  letter-spacing: 2px;
+  margin: 0px;
+}
+
+.turnir-infa-box {
+  padding-left: 186px;
+  padding-top: 86px;
+}
+
+.turnir-infa-box-text {
+  width: 1548px;
+  height: 985px;
+  background: url(./img/image-15.png) no-repeat;
+}
+
+.turnir-infa-text {
+  justify-content: space-evenly;
+  display: flex;
+  padding-top: 30px;
+}
+
+.turnir-infa-text-1 {
+  background: rgba(121, 108, 235, 0.8);
+  width: 661px;
+  height: 450px;
+  border-radius: 20px;
+}
+
+.turnir-infa-text-1-1 img {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.turnir-infa-text-1-1 p {
+  padding-top: 20px;
+  font-size: 29px;
+  float: right;
+  font-family: "Press Start 2P";
+  color: white;
+}
+
+.turnir-infa-text-1-2 p {
+  padding-left: 28px;
+  font-size: 16px;
+  font-family: "Press Start 2P";
+  color: white;
+  line-height: 10px;
+  letter-spacing: 3px;
+}
+
+.list-style-type {
+  list-style-type: disc;
+  padding-left: 28px;
+  font-size: 16px;
+  font-family: "Press Start 2P";
+  color: white;
+  line-height: 27px;
+  letter-spacing: 3px;
+}
+
+.footer {
+  display: flex;
+  padding-top: 170px;
+  padding-left: 67px;
+}
+
+.footer-text-1 {
+  display: flex;
+}
+.footer-text-1 a {
+  padding-bottom: 50px;
+  text-decoration: none;
+  padding-right: 66px;
+  color: white;
+  font-size: 26px;
+  font-family: Montserrat;
+}
+
+.footer-text-2 {
+  display: flex;
+}
+.footer-text-2 a {
+  text-decoration: none;
+  padding-right: 80px;
+  color: white;
+  font-size: 26px;
+  font-family: Montserrat;
+}
+
+.footer-logo {
+  padding-top: 20px;
+  padding-right: 92px;
+}
+
+.footer-img {
+  padding-top: 120px;
+  padding-left: 360px;
+}
+.footer-img img {
+  padding-right: 42px;
+}/*# sourceMappingURL=scss-uslugi.css.map */
