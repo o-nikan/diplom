@@ -97,6 +97,7 @@ body {
   display: none; /* Скрываем по умолчанию */
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 /* Сам попап */
